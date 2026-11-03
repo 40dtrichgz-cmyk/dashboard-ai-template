@@ -1,0 +1,24 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- พื้นหล >
+  <rect width="200" height="100" rx="16" ry="16" fill="#0F172A"/>
+
+  <!-- ข้อความ MarketFlow -->
+  <text x="24" y="38" fill="#66D8EE" font-family="Inter, sans-serif" font-size="32" font-weight="600" letter-spacing="-0.5">
+    MarketFlow
+  </text>
+
+  <!-- ขนาดข้อมูลเล็กด้านขวา -->
+  <g transform="translate(140, 30)">
+    <circle cx="0" cy="0" r="6" fill="#66D8EE"/>
+    <circle cx="24" cy="0" fill="#8B5CF6"/>
+    <circle cx="48" cy="0" fill="#A78BFA"/>
+    <path d="M0 0 L24 0 L48 0" stroke="#66D8EE" stroke-width="2" fill="none"/>
+    <text x="56" y="5" fill="#66D8EE" font-family="Inter, sans-serif" font-size="10">Flow</text>
+  </g>
+
+  <!-- เส้นแบ่ง -->
+  <line x1="22" y1="0" x2="22" y2="100" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- ลายกราฟข้อมูลด้านล่าง -->
+  <path d="M10 70 Q30 80 Q50 75 Q70 85 Q90 70" fill="none" stroke="#66D8EE" stroke-width="2" opacity="0.5"/>
+</svg>
